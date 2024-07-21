@@ -11,8 +11,13 @@ const config: StorybookConfig = {
     name: '@storybook/react-vite',
     options: {},
   },
+  staticDirs: ['../public'],
   docs: {
     autodocs: true,
+  },
+  async viteFinal(config) {
+    config.define = { 'process.env': {} };
+    return config;
   },
 };
 

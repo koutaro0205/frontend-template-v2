@@ -11,6 +11,6 @@ export default meta;
 export const Basic: StoryObj<typeof meta> = {
   args: {
     href: '/',
-    children: 'Story Story Story Story Story Story Story',
+    children: 'Story',
   },
 };

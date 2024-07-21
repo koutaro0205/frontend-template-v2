@@ -8,7 +8,7 @@ const meta = {
 
 export default meta;
 
-export const Basic: StoryObj<typeof meta> = {
+export const WithoutIcon: StoryObj<typeof meta> = {
   args: {
     text: 'Story',
   },
@@ -18,5 +18,13 @@ export const WithIcon: StoryObj<typeof meta> = {
   args: {
     text: 'Story',
     iconName: 'search',
+  },
+};
+
+export const Small: StoryObj<typeof meta> = {
+  args: {
+    text: 'Small',
+    iconName: 'search',
+    size: 's',
   },
 };

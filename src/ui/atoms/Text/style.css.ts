@@ -6,10 +6,6 @@ import { fontSize } from '@/theme/fontSize';
 import { fontWeight } from '@/theme/fontWeight';
 
 export const styles = recipe({
-  base: {
-    fontWeight: fontWeight.normal,
-    color: color.black,
-  },
   variants: {
     color: styleVariants(color, (c) => ({ color: c })),
     size: styleVariants(fontSize, (fs) => ({ fontSize: fs })),

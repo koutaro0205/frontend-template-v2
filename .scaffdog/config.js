@@ -1,3 +1,3 @@
 module.exports = {
-  files: ['./component/*', './test/*', './storybook/*'],
+  files: ['./component/*', './storybook/*'],
 };

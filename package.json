@@ -9,7 +9,7 @@
     "lint": "next lint",
     "sb": "storybook dev -p 6006",
     "build-sb": "storybook build",
-    "sd": "scaffdog generate",
+    "scaffdog": "scaffdog generate",
     "test": "vitest",
     "test:all": "vitest run --coverage",
     "snapshot": "vitest -u"

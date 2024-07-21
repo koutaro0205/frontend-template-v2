@@ -17,7 +17,7 @@ type Props = {
 } & StyleProps;
 
 export const Text: React.FC<Props> = React.memo(
-  ({ children, color, size, weight }) => {
+  ({ children, color = 'black', size = 'm', weight = 'normal' }) => {
     return <p className={styles({ color, size, weight })}>{children}</p>;
   },
 );
