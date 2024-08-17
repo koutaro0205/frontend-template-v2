@@ -24,8 +24,8 @@ importers:
         specifier: ^2.3.0
         version: 2.4.3(@types/node@20.5.7)(next@13.4.19(@babel/core@7.24.7)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(terser@5.31.1)(webpack@5.92.1(@swc/core@1.6.7(@swc/helpers@0.5.1))(esbuild@0.18.20))
       '@vanilla-extract/recipes':
-        specifier: 0.5.0
-        version: 0.5.0(@vanilla-extract/css@1.15.3)
+        specifier: 0.5.4
+        version: 0.5.4(@vanilla-extract/css@1.15.3)
       jsdom:
         specifier: ^22.1.0
         version: 22.1.0
@@ -2720,8 +2720,8 @@ packages:
   '@vanilla-extract/private@1.0.5':
     resolution: {integrity: sha512-6YXeOEKYTA3UV+RC8DeAjFk+/okoNz/h88R+McnzA2zpaVqTR/Ep+vszkWYlGBcMNO7vEkqbq5nT/JMMvhi+tw==}
 
-  '@vanilla-extract/recipes@0.5.0':
-    resolution: {integrity: sha512-NfdZ8XyqCDG2RsO3FmYPALDMKg5045dRD97NbBb0Fog3LMDVXZxYgDOct5FAWob8U6W4GbhVpRZt1X9hNnH6fA==}
+  '@vanilla-extract/recipes@0.5.4':
+    resolution: {integrity: sha512-IL9l/RgXr9UFlRnJAKeUEeAYX7mbOTcmeOAhkrj3jO3ezHj3+c7fYWkPVGM4Qz56I4oUqp93jli+28xIt/lsLg==}
     peerDependencies:
       '@vanilla-extract/css': ^1.0.0
 
@@ -11194,7 +11194,7 @@ snapshots:
 
   '@vanilla-extract/private@1.0.5': {}
 
-  '@vanilla-extract/recipes@0.5.0(@vanilla-extract/css@1.15.3)':
+  '@vanilla-extract/recipes@0.5.4(@vanilla-extract/css@1.15.3)':
     dependencies:
       '@vanilla-extract/css': 1.15.3
 
