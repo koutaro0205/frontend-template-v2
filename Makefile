@@ -1,6 +1,6 @@
 # ローカルサーバー起動
 start:
-	pnpm run start
+	pnpm run dev
 
 # Storybook起動
 sb:
