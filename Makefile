@@ -11,10 +11,10 @@ sd:
 
 # Type Check
 tsc:
-	pnpm run tsc
+	pnpm tsc
 
 # Lint Check
-tsc:
+lint:
 	pnpm run lint
 
 test:
