@@ -15,7 +15,7 @@
     "snapshot": "vitest -u"
   },
   "dependencies": {
-    "@types/node": "20.5.7",
+    "@types/node": "20.15.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "@vanilla-extract/css": "^1.15.1",
